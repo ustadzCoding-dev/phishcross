@@ -21,12 +21,12 @@
 ## Introduction
 PhishCross is a research project developed as part of my Undergraduate Thesis (Tugas Akhir / Skripsi) in Computer Science (S1 Teknik Informatika). This project explores the intersection of Deep Learning, Cybersecurity, and Software Engineering. 
 
-Traditional phishing detection systems often rely solely on single-modality features, such as analyzing the URL string or checking domain blacklists. However, modern attackers easily bypass these defenses by cloning visual layouts and HTML structures. Under the supervision of my academic advisors, I developed **PhishCross**—a cross-modal (multimodal) deep learning classifier that analyzes three complementary modalities in parallel:
+Traditional phishing detection systems often rely solely on single-modality features, such as analyzing the URL string or checking domain blacklists. However, modern attackers easily bypass these defenses by cloning visual layouts and HTML structures. Under the supervision of my academic advisors, I developed PhishCross, a cross-modal (multimodal) deep learning classifier that analyzes three complementary modalities in parallel:
 1. **URL Modality:** Detects lexical abnormalities and suspicious subdomains.
 2. **HTML Modality:** Captures semantic anomalies and malicious form behaviors from the source code.
 3. **Visual Modality:** Analyzes the visual layout and screenshot of the website.
 
-To bridge the gap between academic research and production deployment, this project implements a complete Software Engineering pipeline. The heavy PyTorch model is optimized and exported to **ONNX Runtime**, enabling low-latency CPU-only inference suitable for real-time applications.
+To bridge the gap between academic research and production deployment, this project implements a complete Software Engineering pipeline. The heavy PyTorch model is optimized and exported to ONNX Runtime, enabling low-latency CPU-only inference suitable for real-time applications.
 
 ---
 
@@ -180,12 +180,12 @@ This project is intended for research, academic evaluation, and defensive securi
 ## Pendahuluan
 PhishCross adalah proyek penelitian yang dikembangkan sebagai bagian dari Tugas Akhir / Skripsi saya pada program studi S1 Teknik Informatika. Proyek ini mengeksplorasi integrasi antara Deep Learning, Keamanan Siber (Cybersecurity), dan Rekayasa Perangkat Lunak (Software Engineering).
 
-Sistem deteksi phishing tradisional umumnya hanya bergantung pada satu modalitas fitur, seperti analisis string URL atau pemeriksaan daftar hitam (blacklist) domain. Namun, penyerang modern dapat dengan mudah melewati pertahanan tersebut dengan menduplikasi tata letak visual dan struktur HTML secara presisi. Di bawah bimbingan para dosen pembimbing saya, saya mengembangkan **PhishCross**—sebuah model klasifikasi deep learning cross-modal (multimodal) yang menganalisis tiga aspek web secara paralel:
+Sistem deteksi phishing tradisional umumnya hanya bergantung pada satu modalitas fitur, seperti analisis string URL atau pemeriksaan daftar hitam (blacklist) domain. Namun, penyerang modern dapat dengan mudah melewati pertahanan tersebut dengan menduplikasi tata letak visual dan struktur HTML secara presisi. Di bawah bimbingan para dosen pembimbing saya, saya mengembangkan PhishCross. sebuah model klasifikasi deep learning cross-modal (multimodal) yang menganalisis tiga aspek web secara paralel:
 1. **Modalitas URL:** Mendeteksi kejanggalan leksikal dan subdomain mencurigakan pada URL.
 2. **Modalitas HTML:** Menangkap anomali semantik dan perilaku formulir berbahaya dari kode sumber HTML.
 3. **Modalitas Visual:** Menganalisis tata letak visual dan tangkapan layar (screenshot) situs.
 
-Untuk menjembatani kesenjangan antara penelitian akademis dan implementasi siap pakai (production), proyek ini menerapkan alur rekayasa perangkat lunak yang lengkap. Model PyTorch yang berat dioptimasi dan diekspor ke dalam format **ONNX Runtime**, memungkinkan proses inferensi berlatensi rendah yang berjalan murni pada CPU tanpa bergantung pada GPU.
+Untuk menjembatani kesenjangan antara penelitian akademis dan implementasi siap pakai (production), proyek ini menerapkan alur rekayasa perangkat lunak yang lengkap. Model PyTorch yang berat dioptimasi dan diekspor ke dalam format ONNX Runtime, memungkinkan proses inferensi berlatensi rendah yang berjalan murni pada CPU tanpa bergantung pada GPU.
 
 ---
 
